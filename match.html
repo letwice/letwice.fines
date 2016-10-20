@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home</title>
+		<link rel="stylesheet" src="global.css" href="global.css"/>
+		<link rel="stylesheet" href="/bootstrap.css">
+		<link rel="shortcut icon" href="./siteimages/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="./siteimages/favicon.ico" type="image/x-icon">
+	</head>
+	<body>
+		<div>
+			<div id="body_content">
+				<div id="nav_layer">
+					<div class="bumper">&nbsp;</div>
+					<div class="spacer">&nbsp;</div>
+				</div>
+		  
+				<div class="tinyText">
+					<div id="banner-container">
+						<img src="./siteimages/shapeimage_1.png" alt="" >
+					</div>
+				</div>
+				  
+				<div id="banner-image" class="tinyText style_SkipStroke_1 stroke_0">
+					<img src="./siteimages/logoTaskBar.png" alt="">
+				</div>
+
+				<div id="nav_menu" class="tinyText style_SkipStroke_1 stroke_0">
+					<form class="navbar-form navbar-right ">
+						<ol class="breadcrumb" style="font-size: 20px" >
+							<li><a href="./index.html"><strong>Home</strong></a></li>
+							<li class="active"><a href="./match.html"><strong>Match Details</strong><span class="sr-only">(current)</span></a></li>
+							<li><a href="./admin.html"><strong>Fine Manager</strong></a></li>
+						</ol>
+					</form>	
+				 </div>
+				
+			    <div style="" id="info_form" class="tinyText">
+					<script type="text/javascript">
+						function ajaxRequest(){
+							var activexmodes=["Msxml2.XMLHTTP", "Microsoft.XMLHTTP"] //activeX versions to check for in IE
+							if (window.ActiveXObject){ //Test for support for ActiveXObject in IE first (as XMLHttpRequest in IE7 is broken)
+								for (var i=0; i<activexmodes.length; i++){
+									try{
+										return new ActiveXObject(activexmodes[i])
+									} catch(e){
+										//suppress error
+									}
+								}
+							} else if (window.XMLHttpRequest) // if Mozilla, Safari etc
+								return new XMLHttpRequest()
+							else
+								return false
+						}
+						
+						function submitPlayerForm() {
+							var formElements = [];
+							formElements.push('home_scoretxt');
+							formElements.push('away_scoretxt');
+							formElements.push('beertxt');
+							formElements.push('bottletxt');
+							formElements.push('beermoneytxt');
+							
+							var postString = '';
+							for (var i = 0; i < formElements.length; ++i) {
+								var item = document.getElementById(formElements[i]);
+								postString += item.name + "=" + item.value + "&";
+							}
+							
+							postString += "submit=true";
+							
+							var mypostrequest=new ajaxRequest()
+							mypostrequest.onreadystatechange=function(){
+								if (mypostrequest.readyState==4){
+									if (mypostrequest.status==200 || window.location.href.indexOf("http")==-1){
+										document.getElementById("dataview").innerHTML=mypostrequest.responseText;
+									} else {
+										alert("An error has occured making the request")
+									}
+								}
+							}
+							
+							mypostrequest.open("POST", "match.php", true)
+							mypostrequest.setRequestHeader("Content-type", "application/x-www-form-urlencoded")
+							mypostrequest.send(postString)
+						}
+					</script>
+					<h1><strong>Game Summary</strong></h1>
+					<form action="javascript:submitPlayerForm();">
+						<table>
+							<tr><td>
+							<label value="FirstName"><strong>Home team score</strong></label></td><td>
+							<input type="number" id="home_scoretxt" name="home_scoretxt" placeholder="home score" required/></td>
+							<tr><td>
+							<label value="LastName"><strong>Away team score</strong></label></td><td>
+							<input type="number" id="away_scoretxt" name="away_scoretxt" placeholder="away score" required/> </td>
+							<tr><td>
+							<label value="KinName"><strong>Beer Person</strong></label></td><td>
+							<input type="text" id="beertxt" name="beertxt" placeholder="drinks man" /></td>
+							<tr><td>
+							<label value="PhoneName"><strong>Bottle Person</strong></label></td><td>
+							<input type="text" id="bottletxt" name="bottletxt" placeholder="bottle man"/></td>
+							<tr><td>
+							<label value="PhoneName"><strong>Beer money total</strong></label></td><td>
+							<input type="number" id="beermoneytxt" name="beermoneytxt"  placeholder="drank money" required/></td>
+						</table>
+						<button type="submit" name="submit" value="sumbit"><strong>Submit</strong></button>
+					</form>
+					<div class="dataview" id="dataview";>
+						<ul class="viewlist">
+						
+						</ul>
+					</div>
+
+				</div>
+			</div>	
+				  
+				  <!-- <div style="height: 900px; line-height: 900px; " class="spacer">&nbsp;</div> -->
+				</div>
+				
+		  </div>
+			
+			
+	</body>
+
+</html>

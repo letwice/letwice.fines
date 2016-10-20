@@ -1,0 +1,396 @@
+# Webalizer V2.21-02 Incremental Data - 10/16/2016 12:46:52
+2016 10 16 12 46 52
+1832 1449 41 32 16 27 66422599 778 84 0
+3 16 447 4 16
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+222 162 7158200 5 106 11
+82 54 4698664 9 26 9
+98 71 3081388 5 38 6
+47 42 1440434 4 26 4
+381 295 10991385 14 182 17
+38 30 1217348 4 19 4
+25 25 737248 4 16 3
+36 36 1518468 5 13 5
+22 12 42103 4 12 3
+127 90 2745100 6 62 7
+689 602 32701503 8 243 9
+31 17 45659 3 22 3
+34 13 45099 3 13 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+22 13 723903 7
+59 33 1149753 28
+76 66 5064017 30
+45 41 2441144 17
+64 34 137517 32
+218 191 8326432 106
+141 82 4410831 41
+91 80 4220078 41
+193 162 7894563 85
+118 109 4418352 56
+588 475 23086633 210
+79 58 2161939 37
+5 5 10287 5
+28 18 527556 13
+81 61 1155181 56
+18 18 682650 10
+6 3 11763 4
+0 0 0 0
+0
+0
+0
+1449
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+318
+0
+0
+0
+0
+0
+0
+65
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/siteimages/buttonHome.png
+1 93 0 114990 0 0
+/
+0 183 0 587005 66 14
+/admin.html
+0 7 0 28129 0 0
+/siteimages/buttonInfo.png
+1 94 0 98575 0 0
+/report.html
+0 48 0 184795 6 1
+/home.php
+0 110 0 123734 1 3
+/siteimages/shapeimage_1.png
+1 111 0 1853850 0 0
+/addtransaction.html
+0 5 0 16441 0 0
+/About.html
+0 20 0 30719 3 1
+/insertFine.php
+0 36 0 15918 0 0
+/siteimages/background_final.jpg
+1 18 0 10265721 0 0
+/match.html
+0 6 0 21084 0 1
+/siteimages/logoTaskBar.png
+1 91 0 4446956 0 0
+/siteimages/Website-Mavericks-Buttons_09.png
+1 21 0 17967 0 0
+/About.php
+0 13 0 51766 1 0
+/favicon.ico
+0 88 0 663962 0 0
+/about.php
+0 14 0 55748 0 1
+/draftplayer.html
+0 30 0 147429 4 2
+/bootstrap_draftplayer.css
+0 12 0 1316880 0 0
+/homesummary.php
+0 110 0 73803 1 0
+/search.php
+0 124 0 259703 1 16
+/siteimages/Website-Mavericks-Buttons_05.png
+1 21 0 26439 0 0
+/trans.php
+0 12 0 39357 0 0
+/siteimages/Website-Mavericks-Logo-
+0 21 0 785508 0 5
+/match.php
+0 1 0 269 0 0
+/global.css
+0 124 0 137761 0 0
+/bootstrap.css
+0 111 0 9764854 0 0
+/siteimages/Website-Mavericks-Buttons_03.png
+1 21 0 20727 0 0
+/Index.php
+0 5 0 26835 0 0
+/siteimages/buttonDraft.png
+1 97 0 149887 0 0
+/action.php
+0 21 0 10903 1 1
+/siteimages/background.png
+1 99 0 34949424 0 0
+# End Of Table - urls
+# -sites- (monthly)
+n16-05-03.opera-mini.net
+0 14 14 1179029 1 1476007051
+/
+vc-gp-n-41-13-254-69.umts.vodacom.co.za
+0 6 2 7728 1 1476264274
+/search.php
+41.114.155.56
+0 11 6 16437 1 1476514989
+/search.php
+google-proxy-66-102-9-129.google.com
+0 6 6 221290 1 1475658313
+/siteimages/Website-Mavericks-Logo-
+154.69.131.172
+0 17 17 725202 1 1475941754
+/home.php
+8ta-151-72-110.telkomadsl.co.za
+0 27 27 1425323 2 1476167427
+/report.html
+196-210-189-175.dynamic.isadsl.co.za
+0 15 8 165668 1 1476463114
+/search.php
+41.114.170.226
+0 53 43 31090 1 1476389557
+/homesummary.php
+google-proxy-66-102-9-132.google.com
+0 2 2 956853 0 0
+-
+google-proxy-66-102-9-135.google.com
+0 1 1 2090 0 0
+-
+n30-02-05.opera-mini.net
+0 28 28 1900349 1 1475934432
+/
+41.114.239.145
+0 14 14 1098157 1 1475614166
+/
+google-proxy-66-249-93-133.google.com
+0 13 13 117548 4 1476012963
+/
+vc-gp-n-41-13-243-3.umts.vodacom.co.za
+0 7 4 7136 1 1476008864
+/search.php
+41.164.66.98
+0 21 18 1257368 2 1476363583
+/draftplayer.html
+8ta-145-82-51.telkomadsl.co.za
+0 17 17 725205 1 1475944938
+/home.php
+n09-04-04.opera-mini.net
+0 17 16 1648805 1 1476456505
+/report.html
+tovent.net.afrihost.co.za
+0 324 220 5989248 10 1476613178
+/search.php
+google-proxy-66-249-93-129.google.com
+0 9 9 59724 5 1476437827
+/
+41.114.183.111
+0 14 13 518521 1 1475782884
+/search.php
+196.22.242.138.myadslip.net
+0 886 735 37147467 19 1476463625
+/homesummary.php
+197-88-54-238.dsl.mweb.co.za
+0 12 12 715124 1 1475927791
+/home.php
+41.114.244.16
+0 2 2 2793 1 1475941704
+/search.php
+vc-cpt-41-3-76-171.umts.vodacom.co.za
+0 9 9 82582 1 1476193176
+/home.php
+197-88-116-200.dsl.mweb.co.za
+0 15 10 21612 1 1475997560
+/search.php
+vc-gp-n-41-13-250-252.umts.vodacom.co.za
+0 66 16 501528 2 1475936406
+/search.php
+32.proxy.uwc.ac.za
+0 12 12 1188491 1 1475672171
+/action.php
+41.114.191.91
+0 16 16 621831 1 1475928052
+/search.php
+vc-cpt-41-3-5-15.umts.vodacom.co.za
+0 14 14 611180 1 1475941783
+/action.php
+196-215-108-183.dynamic.isadsl.co.za
+0 32 26 1172686 2 1475927938
+/home.php
+41.114.200.93
+0 4 3 6377 1 1476622010
+/home.php
+41.114.236.49
+0 24 19 32201 2 1475946741
+/trans.php
+vc-gp-n-41-13-238-149.umts.vodacom.co.za
+0 14 14 679122 1 1475790376
+/search.php
+105-184-205-12.east.dsl.telkomsa.net
+0 5 5 10287 1 1476125146
+/search.php
+n15-01-03.opera-mini.net
+0 10 9 711670 1 1476467180
+/draftplayer.html
+n12-01-03.opera-mini.net
+0 19 18 1334245 1 1476466540
+/draftplayer.html
+vc-cpt-105-248-104-96.umts.vodacom.co.za
+0 29 6 29670 2 1476619456
+/search.php
+static-72-66-115-14.washdc.fios.verizon.net
+0 21 20 1751101 2 1476463651
+/home.php
+vc-cpt-105-248-142-241.umts.vodacom.co.za
+0 10 10 1077720 1 1475651182
+/siteimages/Website-Mavericks-Logo-
+krusty.w3.org
+0 1 1 5226 1 1475588628
+/
+google-proxy-66-249-93-131.google.com
+0 15 14 666915 5 1476542279
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+tovent.net.afrihost.co.za
+0 18 6 17500 1 1476613178
+/search.php
+41.114.200.93
+0 4 3 6377 1 1476622010
+/home.php
+vc-cpt-105-248-104-96.umts.vodacom.co.za
+0 12 4 21222 1 1476619456
+/search.php
+# End Of Table - sites (daily)
+# -referrers- 
+http://letwice.itintelligence.co.za/Index.php
+1 25
+- (Direct Request)
+0 202
+http://letwice.itintelligence.co.za/index.php
+1 36
+http://letwice.itintelligence.co.za/addtransaction.html
+1 50
+http://letwice.itintelligence.co.za/About.html
+1 65
+http://letwice.itintelligence.co.za/match.html
+1 22
+http://www.google.com/search
+0 1
+http://letwice.itintelligence.co.za/
+1 578
+http://letwice.itintelligence.co.za/index.html
+1 285
+http://letwice.itintelligence.co.za/draftplayer.html
+1 103
+http://letwice.itintelligence.co.za/global.css
+1 92
+http://letwice.itintelligence.co.za/report.html
+1 279
+http://letwice.itintelligence.co.za/action.php
+1 4
+http://letwice.itintelligence.co.za/About.php
+1 40
+http://letwice.itintelligence.co.za/about.php
+1 14
+http://letwice.itintelligence.co.za/admin.html
+1 36
+# End Of Table - referrers
+# -agents- 
+WhatsApp/2.16.306 A
+0 1
+Mozilla/5.0 (Linux; Android 6.0.1; SM-G925F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile 
+0 14
+Mozilla/5.0 (Linux; Android 6.0.1; SM-G920F Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile 
+0 24
+Mozilla/5.0 (Linux; Android 6.0.1; SM-G900H Build/MMB29K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile 
+0 16
+Opera/9.80 (Android; Opera Mini/7.5.33942/37.8949; U; en) Presto/2.12.423 Version/12.16
+0 39
+Mozilla/5.0 (Linux; Android 5.0; ALE-L02 Build/HuaweiALE-L02) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/37.0.
+0 17
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.143 Safari/537.36
+0 894
+Mozilla/5.0 (Linux; Android 5.1.1; Redmi Note 3 Build/LMY47V) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mob
+0 34
+Mozilla/4.0 (Windows 98; US) Opera 12.16 [en]
+0 4
+Opera/9.80 (Android; Opera Mini/7.5.33942/37.8993; U; en) Presto/2.12.423 Version/12.16
+0 44
+Mozilla/5.0 (Linux; Android 5.0.2; SM-A300F Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Mobile 
+0 364
+Mozilla/5.0 (Linux; Android 5.0.1; GT-I9505 Build/LRX22C) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.95 Mobile S
+0 11
+Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+0 5
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.124 Safari/537.36
+0 14
+WhatsApp/2.16.275 A
+0 2
+WhatsApp/2.16.297 A
+0 1
+Mozilla/5.0 (Linux; Android 6.0; EVA-L19 Build/HUAWEIEVA-L19) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.98 Mobi
+0 49
+Mozilla/5.0 (Linux; Android 4.4.2; Chacer Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.97 Mobile Saf
+0 17
+Mozilla/5.0 (Linux; Android 6.0; HUAWEI VNS-L31 Build/HUAWEIVNS-L31) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.
+0 134
+Opera/9.80 (X11; Linux zvav; U; en) Presto/2.12.423 Version/12.16
+0 1
+Validator.nu/LV http://validator.w3.org/services
+0 1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko; Google Web Preview) Chrome/27.0.1453 Safari/537.36
+0 9
+Mozilla/5.0 (BB10; Touch) AppleWebKit/537.35+ (KHTML, like Gecko) Version/10.3.2.2876 Mobile Safari/537.35+
+0 12
+Mozilla/5.0 (Linux; Android 4.4.4; Nexus 5 Build/KTU84Q) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.81 Mobile Sa
+0 21
+Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.116 Safari/537.36
+0 35
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.75 Safari/537.36 Google Favicon
+0 22
+Mozilla/5.0 (iPhone; CPU iPhone OS 10_0_2 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/14A456 
+0 47
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
