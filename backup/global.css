@@ -1,6 +1,6 @@
 
 body {
-	background: rgb(255, 255, 255) url('./siteimages/background.png') repeat-y center; 
+	background: rgb(255, 255, 255) url('./siteimages/background.png') no-repeat center; 
 	background-position: 50% 0px; 
 	margin: 0pt;
 }
@@ -72,39 +72,14 @@ body {
 	top: -190px;
 }
 
-#home_form_2 {
-	width: 100%; 
-	position: relative; 
-	margin: 0px auto; 
-	top: -190px;
-}
-
-.home_details {
-	width: 80%;
-	margin: 0px auto;
-}
-
-
-h1,h2,h3,h4 {
-  vertical-align:middle;
-}
-
-h1>.badge, h2>.badge, h3>.badge {
-  vertical-align:middle;
-}
 
 @media (max-width: 934px) {
 	body {
 	background-position: 50% 160px; 
 }
-
-	#home_form_2 {
-		margin-top: -120px !important;
-		top: 0px !important;
-	}
 	
 	#body_content {
-		width: 100% !important;
+		width: 635px !important;
 	}
 	
 	#banner-container img {

@@ -31,56 +31,25 @@
 				<div id="nav_menu" class="tinyText style_SkipStroke_1 stroke_0">
 					<form class="navbar-form navbar-right ">
 						<ol class="breadcrumb" style="font-size: 20px" >
-							<li class="active"><a href="./index.php"><strong>Home</strong><span class="sr-only">(current)</span></a></li>
-							<li><a href="./draftplayer.php"><strong>Draft Player</strong></a></li>
-							<li><a href="./report.php"><strong>Reports</strong></a></li>
-							<li><a href="./login/index.php"><strong>Admin</strong></a></li>
+							<li class="active"><a href="./index.html"><strong>Home</strong><span class="sr-only">(current)</span></a></li>
+							<li><a href="./draftplayer.html"><strong>Draft Player</strong><span class="sr-only">(current)</span></a></li>
+							<li><a href="./report.html"><strong>Reports</strong></a></li>
 						</ol>
 					</form>	
 				 </div>
 				
-			    <div style="" id="home_form_2" class="tinyText">
-					<div class="home_details">
-						<?php
-							$output ="";
-							ob_start();
-							include("homesummary.php");
-							$output = ob_get_contents();
-							
-							ob_end_clean();
-							echo $output;
-						?>
-					</div>
-					<br>
-					<!--iframe src="home.php"  align="middle"  style="border: 0; width: 100%; height: 400px"></iframe-->
-					<div class="home_details">
-						<?php
-							$output ="";
-							ob_start();
-							include("home.php");
-							$output = ob_get_contents();
-							
-							ob_end_clean();
-							echo $output;
-						?>
-					</div>
-					<br>
+			    <div style="" id="home_form" class="tinyText">
+					<iframe src="homesummary.php" align="middle" style="border: 0; width: 100%; height: 127px"></iframe>
 					
-					<div style="width: 47%; text-align: center; margin: 0px auto">
-						<div class="col-xs-12" style="display: block; margin-bottom: 0px auto; margin: 0px auto; width: 150px">
-							<span style="font-size: 36px; border-radius: 1em;" class="label label-info"><strong>Next Game Location</strong></span> 
-						</div>
+					<iframe src="home.php"  align="middle"  style="border: 0; width: 100%; height: 400px"></iframe>
+					<div style="width: 100%; text-align: center">
+						<div style="display: inline-block"><span style="font-size: 30px; border-radius: 1em; width: 150px" class="label label-success"><strong>Next Game Location</strong></span> </div>
 					</div>
-					<div style="width: 45%; text-align: center; margin: 0px auto">
-						<div style="display: block; margin-bottom: 0px auto; margin: 0px auto; width: 600px">
-							<iframe src="map.php" align="middle"  style="border: 0; width: 100%; height: 452px"></iframe>
-						</div>
-					</div>
-					
+					<iframe src="map.php" align="middle"  style="border: 0; width: 100%; height: 452px"></iframe>
 				</div>
 			</div>	
 				  
-				
+				 <!-- <div style="height: 900px; line-height: 900px; " class="spacer">&nbsp;</div> -->
 				</div>
 				
 		  </div>

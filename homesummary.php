@@ -1,5 +1,6 @@
 <?php
 	include("connect.php");
+	include($_SERVER['DOCUMENT_ROOT']."/login/validate.php");
 	$select = new mysqli($servername, $username, $password, $dbname);
 	if ($select->connect_error) {
 		die("Connection failed: " . $select->connect_error);
@@ -53,24 +54,31 @@
 	}
 	$fines_paid = $fines_paid * -1;
 	$prepaid_fines = $prepaid_fines * -1;
-	echo "<div style=\"width: 100%; text-align: center\">
-		<div style=\"display: inline-block\"><span style=\"font-size: 30px; border-radius: 1em; width: 150px\" class=\"label label-success\"><strong>MONIES</strong></span> </div>
-	</div>";
-	echo "<table><colgroup>
-	   <col style=\"width: 20%;\">
-	   <col style=\"width: 20%;\">
-	   <col style=\"width: 20%;\">
-	    <col style=\"width: 20%;\">
-	   </colgroup><tr style=\"background-color:transparent; border-radius: 1em\"><th><span style=\"font-size: 15px; border-radius: 1em;  background-color: #ffab0a; width: 100%; display: block\" class=\"label label-success\"> Total Fines</span></th>
-	   <th><span style=\"font-size: 15px; border-radius: 1em;  background-color: #ffab0a; width: 100%; display: block\" class=\"label label-success\"> Fines Paid</span></th>
-	   <th><span style=\"font-size: 15px; border-radius: 1em;  background-color: #ffab0a; width: 100%; display: block\" class=\"label label-success\"> Prepaid</span></th>
-	   <th><span style=\"font-size: 15px; border-radius: 1em;  background-color: #ffab0a; width: 100%; display: block\" class=\"label label-success\"> Beer Sales</span></th></tr>
-	   <tr style=\"background-color:transparent\"  align=\"center\"><td><strong> <span style=\"font-size: 15px; border-radius: 1em;  background-color: #5cb85c; width: 100%; display: block\" class=\"label label-success\"> R ".$total_fines."</span> </strong></td>
-	   <td><strong><span style=\"font-size: 15px; border-radius: 1em;  background-color: #5cb85c; width: 100%; display: block\" class=\"label label-success\"> R ".$fines_paid ."</span></strong></td>
-	   <td><strong><span style=\"font-size: 15px; border-radius: 1em;  background-color: #5cb85c; width: 100%; display: block\" class=\"label label-success\"> R ".$prepaid_fines."</span></strong></td>
-	   <td><strong><span style=\"font-size: 15px; border-radius: 1em;  background-color: #5cb85c; width: 100%; display: block\" class=\"label label-success\"> R ".$beers."</span></strong>
-	   </td></tr></table>";
+	
 	
 	mysqli_close($select);
 					
 ?>
+
+	<div style="width: 60%; text-align: center; margin: 0px auto">
+		<div style="display: block; margin-bottom: 0px auto; margin: 0px auto; width: 150px">
+			<span style="font-size: 30px; border-radius: 1em;" class="label label-info"><strong>MONIES</strong></span> 
+		</div>
+		<br>
+		<table><colgroup>
+				<col style="width: 20%;">
+				<col style="width: 20%;">
+				<col style="width: 20%;">
+				<col style="width: 20%;">
+			</colgroup>
+			<tr style="background-color:transparent; border-radius: 1em"><th><span style="font-size: 15px; border-radius: 1em;  background-color: #ffab0a; width: 100%; display: block" class="label label-success"> Total Fines</span></th>
+				<th><span style="font-size: 15px; border-radius: 1em;  background-color: #ffab0a; width: 100%; display: block" class="label label-success"> Fines Paid</span></th>
+				<th><span style="font-size: 15px; border-radius: 1em;  background-color: #ffab0a; width: 100%; display: block" class="label label-success"> Prepaid</span></th>
+				<th><span style="font-size: 15px; border-radius: 1em;  background-color: #ffab0a; width: 100%; display: block" class="label label-success"> Beer Sales</span></th></tr>
+			<tr style="background-color:transparent"  align="center"><td><strong> <span style="font-size: 15px; border-radius: 1em; color:black; width: 100%; display: block" class="label label-info"> R <?php echo  $total_fines; ?></span> </strong></td>
+				<td><strong><span style="font-size: 15px; border-radius: 1em; width: 100%; color:black; display: block" class="label label-info"> R <?php echo $fines_paid; ?></span></strong></td>
+				<td><strong><span style="font-size: 15px; border-radius: 1em; width: 100%; color:black; display: block" class="label label-info"> R <?php echo  $prepaid_fines; ?></span></strong></td>
+				<td><strong><span style="font-size: 15px; border-radius: 1em; width: 100%; color:black; display: block" class="label label-info"> R <?php echo  $beers; ?></span></strong>
+			</td></tr>
+		</table>
+	 </div>
